@@ -6,7 +6,7 @@ header{
     padding: 10px 5%;
     background-color: rgb(101, 234, 94);
 }
-header>nav{
+.links{
     display:flex;
     justify-content: space-around;
 }
