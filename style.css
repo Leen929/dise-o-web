@@ -52,5 +52,8 @@ header a {
   font-size: 30px;
   vertical-align: top;
 }
+.links: hover{
+    color:red;
+}
 
 
