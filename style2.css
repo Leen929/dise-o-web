@@ -97,3 +97,24 @@ main { padding: 32px 40px 60px; }
   color: #9a9aa0;
   line-height: 1.4;
 }
+
+@keyframes anim1 {
+    o%{
+    transform:translate(0);
+    transform:rotate(0);
+    animation-delay: 2s, 3s;
+    animation-fill-mode:forwards;
+    }
+    50%{
+    transform:translate(20px);
+    transform:rotate(90deg);
+    background-color:dark blue;
+        
+    }
+    100%{
+    transform:translate(10px);
+    transform:rotate(30deg);
+    background-color:red;
+    
+
+    
